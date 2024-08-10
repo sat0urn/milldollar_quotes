@@ -1,0 +1,34 @@
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.quote-block {
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+.quote-text {
+    font-size: 1em; /* Inherits and scales with the quote-block's font size */
+    position: relative;
+    display: inline-block;
+}
+
+.quote-text::before,
+.quote-text::after {
+    content: '“'; /* or ” for after */
+    font-size: 1.5em; /* 1.5 times the font size of the quote text */
+    color: #555;
+    position: absolute;
+}
+
+.quote-text::before {
+    left: -0.5em; /* Adjust positioning relative to the font size */
+    top: -0.25em;
+}
+
+.quote-text::after {
+    content: '”';
+    right: -0.5em;
+    bottom: -0.25em;
+}
