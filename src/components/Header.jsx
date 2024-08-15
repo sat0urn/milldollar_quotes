@@ -53,7 +53,7 @@ const Header = () => {
                 <Link to={'/'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold px-3 py-0 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    FUCK
+                    FAQ
                   </span>
                 </Link>
               </li>
