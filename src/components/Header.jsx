@@ -16,9 +16,7 @@ const Header = () => {
               </span>
             </Link>
             <div className={""}>
-              <img src={HeaderImg}
-
-                   alt=""/>
+              <img src={HeaderImg} alt=""/>
             </div>
           </div>
           <button className={"navbar-toggler"}
@@ -35,7 +33,7 @@ const Header = () => {
             <ul className={"navbar-nav mb-2 mb-lg-0 py-2 mx-auto"}>
               <li className={"nav-item"}>
                 <Link to={'/'} className={"nav-link text-black p-0"}>
-                  <span className={"fw-bold pe-3 border-end border-black"}
+                  <span className={"fw-bold px-3 border-end border-black"}
                         style={{fontSize: '14px'}}>
                     Домой
                   </span>
