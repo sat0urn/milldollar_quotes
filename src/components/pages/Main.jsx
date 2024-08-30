@@ -7,13 +7,14 @@ const Main = () => {
   const [tooltip, setTooltip] = useState({display: 'none', top: 0, left: 0, text: ''});
 
   const areas = [
-    {id: 1, coords: [0, 0, 20, 40], title: 'Saturn eating his son', url: '#1'},
-    {id: 2, coords: [20, 0, 100, 80], title: 'La Ruche Bee - the best cybersport team', url: '#2'},
-    {id: 3, coords: [0, 40, 20, 60], title: 'The Talos Principle', url: '#3'},
-    {id: 4, coords: [0, 60, 20, 80], title: 'Lucifer watching sins', url: '#4'},
-    {id: 5, coords: [100, 0, 220, 160], title: 'Evangelion girl', url: '#5'},
-    {id: 6, coords: [0, 80, 100, 160], title: 'Evangelion boy', url: '#6'},
-    {id: 7, coords: [220, 0, 620, 160], title: 'Страна самоцветов - ГГ аниме', url: '#7'},
+    {id: 1, coords: [0, 0, 20, 40], title: 'Saturn eating his son - 20x40', url: '#1'},
+    {id: 2, coords: [20, 0, 100, 80], title: 'La Ruche Bee - the best cybersport team - 80x80', url: '#2'},
+    {id: 3, coords: [0, 40, 20, 60], title: 'The Talos Principle - 20x20', url: '#3'},
+    {id: 4, coords: [0, 60, 20, 80], title: 'Lucifer watching sins - 20x20', url: '#4'},
+    {id: 5, coords: [100, 0, 220, 160], title: 'Evangelion girl - 120x160', url: '#5'},
+    {id: 6, coords: [0, 80, 100, 160], title: 'Evangelion boy - 100x80', url: '#6'},
+    {id: 7, coords: [220, 0, 620, 160], title: 'Страна самоцветов - ГГ аниме - 400x160', url: '#7'},
+    {id: 8, coords: [620, 0, 1000, 180], title: 'Казахстан - 380x180', url: '#9'},
   ];
 
   const handleMouseEnter = (title, coords) => {
