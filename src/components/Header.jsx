@@ -3,7 +3,7 @@ import HeaderImg from "../assets/header_top.gif"
 
 const Header = () => {
   return (
-    <div className={"container g-0"}>
+    <div className={"container g-0"} style={{width: '1000px'}}>
       <nav className={"navbar navbar-expand-lg py-0"}
            style={{backgroundColor: '#636562'}}>
         <div className={"d-block w-100"}>
@@ -37,47 +37,47 @@ const Header = () => {
                 <Link to={'/'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold pe-3 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    Homepage
+                    Домой
                   </span>
                 </Link>
               </li>
               <li className={"nav-item"}>
-                <Link to={'/'} className={"nav-link text-black p-0"}>
+                <Link to={'/buy_pixel'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold px-3 py-0 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    Kupipixel
+                    Купить пиксель
                   </span>
                 </Link>
               </li>
               <li className={"nav-item"}>
-                <Link to={'/'} className={"nav-link text-black p-0"}>
+                <Link to={'/faq'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold px-3 py-0 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    FUCK
+                    FAQ
                   </span>
                 </Link>
               </li>
               <li className={"nav-item"}>
-                <Link to={'/'} className={"nav-link text-black p-0"}>
+                <Link to={'/blog'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold px-3 py-0 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    Blog
+                    Блог
                   </span>
                 </Link>
               </li>
               <li className={"nav-item"}>
-                <Link to={'/'} className={"nav-link text-black p-0"}>
+                <Link to={'/list_pixels'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold px-3 border-end border-black"}
                         style={{fontSize: '14px'}}>
-                    Pixel List
+                    Список всех изображении
                   </span>
                 </Link>
               </li>
               <li className={"nav-item"}>
-                <Link to={'/'} className={"nav-link text-black p-0"}>
+                <Link to={'/contact'} className={"nav-link text-black p-0"}>
                   <span className={"fw-bold ps-3"}
                         style={{fontSize: '14px'}}>
-                    Contact
+                    Контакты
                   </span>
                 </Link>
               </li>
